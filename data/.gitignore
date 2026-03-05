@@ -1,0 +1,6 @@
+*.csv
+*.parquet
+*.html
+raw_html/
+*.zip
+*.gz

@@ -2,17 +2,19 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Jupyter
 .ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Data (raw downloads)
+# Raw data downloads (keep out of git)
 data/raw/
 
-# Optional: if you don't want to commit generated outputs
-# data/*.csv
+# Optional: ignore generated outputs if you don't want them committed
 # outputs/
