@@ -67,25 +67,6 @@ Running the notebook will then construct the cleaned player-season dataset.
 
 ---
 
-## Repository Structure
-
-
-cs4412-datamining-project
-│
-├── notebooks/
-│ └── M2_baseball_aging_analysis.ipynb
-│
-├── data/
-│ └── mlb_player_seasons_1980_2025_lahman_batting.csv
-│
-├── docs/
-│ └── proposal.pdf
-│
-└── README.md
-
-
----
-
 ## Author
 
 Tate York  
