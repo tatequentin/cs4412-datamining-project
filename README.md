@@ -20,8 +20,8 @@ The analysis includes:
 - K-Means clustering to identify offensive player profiles
 
 The notebook used for the analysis can be found here:
-notebooks/M2_baseball_aging_analysis.ipynb
 
+`notebooks/M2_baseball_aging_analysis.ipynb`
 
 ---
 
@@ -49,19 +49,17 @@ Raw data files are not committed to the repository.
 To reproduce the dataset used in the notebook:
 
 1. Create the following directory:
-data/raw/lahman/
+
+`data/raw/lahman/`
+
 2. Download the following files from the Lahman database:
 
+- `Batting.csv`
+- `People.csv`
 
-Batting.csv
-People.csv
+3. Place them into:
 
-
-3. Place the files into:
-
-
-data/raw/lahman/
-
+`data/raw/lahman/`
 
 Running the notebook will then construct the cleaned player-season dataset.
 
