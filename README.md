@@ -70,4 +70,3 @@ Running the notebook will then construct the cleaned player-season dataset.
 Tate York  
 
 CS 4412 – Data Mining
-CS 4412 – Data Mining
