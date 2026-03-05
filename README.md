@@ -27,18 +27,18 @@ notebooks/M2_baseball_aging_analysis.ipynb
 
 ## Data Source
 
-The project uses the **Lahman Baseball Database**, a widely used structured dataset containing historical Major League Baseball statistics.
+This project uses the **Lahman Baseball Database**, a publicly available dataset containing historical Major League Baseball statistics for players, teams, and seasons.
 
-Source:
+Official source:
 
-https://www.seanlahman.com/baseball-archive/statistics/
+https://sabr.org/lahman-database/
 
-The following tables are used:
+The analysis uses the following tables from the dataset:
 
 - `Batting.csv`
 - `People.csv`
 
-These tables allow player-season offensive statistics to be combined with demographic information such as birth year to calculate player age.
+These tables allow player-season offensive statistics to be combined with demographic information such as birth year in order to calculate player age and construct a player-season dataset.
 
 ---
 
