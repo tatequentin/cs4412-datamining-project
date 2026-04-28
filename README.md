@@ -7,7 +7,7 @@ two questions:
 1. **How does offensive performance change with age?**
 2. **Do aging curves differ across offensive player profiles?**
 
-The analysis covers 1980–2025, builds a clean player-season dataset, identifies
+The analysis covers 1980–2021, builds a clean player-season dataset, identifies
 four offensive profiles via K-Means clustering, examines aging curves by
 profile, and uses a decision tree as an interpretability tool to explain what
 distinguishes the profiles.
@@ -35,10 +35,10 @@ distinguishes the profiles.
 ├── README.md                              <- this file
 ├── requirements.txt                       <- Python dependencies
 ├── notebooks/
-│   └── M3_analysis.ipynb                  <- end-to-end analysis pipeline
+│   └── M4_analysis.ipynb                  <- end-to-end analysis pipeline
 ├── data/
 │   ├── .gitignore                         <- raw data is not committed
-│   └── mlb_player_seasons_1980_2025_lahman_batting.csv
+│   └── mlb_player_seasons_1980_2021_lahman_batting.csv
 │                                            (cleaned dataset, output of the notebook)
 ├── docs/
 │   ├── York_CS4412_M1_Project_Proposal.pdf
@@ -81,7 +81,7 @@ data/raw/lahman/People.csv
 ### 4. Run the notebook
 
 ```bash
-jupyter notebook notebooks/M3_analysis.ipynb
+jupyter notebook notebooks/M4_analysis.ipynb
 ```
 
 Run the cells in order. The notebook builds the cleaned player-season

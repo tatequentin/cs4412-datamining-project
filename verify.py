@@ -5,7 +5,7 @@ from sklearn.metrics import adjusted_rand_score, accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("data/mlb_player_seasons_1980_2025_lahman_batting.csv")
+df = pd.read_csv("data/mlb_player_seasons_1980_2021_lahman_batting.csv")
 print(f"Loaded {len(df):,} player-seasons\n")
 
 feats = ["BA", "OBP", "SLG", "HR", "SO", "OPS_plus_lg"]
